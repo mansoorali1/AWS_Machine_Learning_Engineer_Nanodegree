@@ -11,7 +11,7 @@ WeightedEnsemble_L3 is the top ranked model.
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
 - Several features were extracted from `datetime` such as date, month, hour features.
-- Initially the model automatically considered independent features `season`, `weather ` as integer datatype. Since they are categorical variables, they are transformed into `category` data type.
+- Initially the model automatically considered independent features `season`, `weather` as integer datatype. Since they are categorical variables, they are transformed into `category` data type.
 - Since the independent features `casual`, `independent` are missing from the test data, so they are dropped from the train data.     
 
 ### How much better did your model preform after adding additional features and why do you think that is?
@@ -44,4 +44,6 @@ I would like to investigate potential outcomes when AutoGluon is run for an diff
 ![model_test_score.png](images/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+- In this project i was able to leverage AutoGluon AutoML Framework for predicting bike sharing demand prediction.
+- Multiple iterations of model built with basic features, updated with extracted features and model with hyperparameter tuning.
+- Since the AutoGluon framework automatically builds multiple models, hence it requires lot of computational resources.
