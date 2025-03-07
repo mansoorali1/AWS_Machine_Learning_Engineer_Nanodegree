@@ -22,7 +22,7 @@ After adding additional features there is increase in model score by 33%.
 The model performed almost closer to earlier iteration of the model.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-TODO: Add your explanation
+I would like to investigate potential outcomes when AutoGluon is run for an different periods with a high quality preset and different hyperparameter settings.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|score|
