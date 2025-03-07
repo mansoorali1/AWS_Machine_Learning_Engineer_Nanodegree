@@ -10,7 +10,9 @@ WeightedEnsemble_L3 is the top ranked model.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+- Several features were extracted from `datetime` such as date, month, hour features.
+- Initially the model automatically considered independent features `season`, `weather ` as integer datatype. Since they are categorical variables, they are transformed into `category` data type.
+- Since the independent features `casual`, `independent` are missing from the test data, so they are dropped from the train data.     
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 After adding additional features there is increase in model score by 33%.
